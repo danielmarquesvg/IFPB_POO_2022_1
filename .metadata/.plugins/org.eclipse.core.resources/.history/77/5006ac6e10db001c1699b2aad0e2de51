@@ -1,0 +1,22 @@
+#ifndef ENDERECO_H_
+#define ENDERECO_H_
+
+#include <string>
+using namespace std;
+
+class Endereco {
+
+	private:
+		string rua;
+		int numero;
+		string bairro;
+		string referencia;
+
+	public:
+		Endereco(string novaRua, int novoNumero, string novoBairro, string novaReferencia);
+
+};
+
+
+
+#endif /* ENDERECO_H_ */

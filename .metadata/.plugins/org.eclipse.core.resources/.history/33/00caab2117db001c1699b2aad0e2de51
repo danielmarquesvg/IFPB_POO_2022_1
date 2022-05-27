@@ -1,0 +1,9 @@
+#include "Cliente.h"
+
+Pessoa::Pessoa(string novoNome, Endereco novoEndereco, string novoTelefone) {
+	this->nome = novoNome;
+	this->endereco = novoEndereco;
+	this->telefone = novoTelefone;
+}
+
+

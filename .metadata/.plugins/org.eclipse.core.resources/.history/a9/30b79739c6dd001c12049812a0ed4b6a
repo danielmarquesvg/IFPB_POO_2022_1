@@ -1,0 +1,21 @@
+#ifndef TRIANGULO_H_
+#define TRIANGULO_H_
+
+class Triangulo {
+
+public:
+	//atributos
+	double base;
+	double altura;
+
+	//construtor
+	Triangulo(double base, double altura);
+
+	//metodos
+	//considere que eh um triangulo equilatero
+	double calcularPerimetro(double base);
+	double calcularArea(double base, double altura);
+
+};
+
+#endif /* TRIANGULO_H_ */

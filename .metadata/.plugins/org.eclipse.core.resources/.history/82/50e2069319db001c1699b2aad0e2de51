@@ -1,0 +1,14 @@
+#ifndef PEDIDO_H_
+#define PEDIDO_H_
+
+#include <string>
+using namespace std;
+
+class Pedido {
+
+	private:
+
+
+};
+
+#endif /* PEDIDO_H_ */

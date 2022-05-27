@@ -1,0 +1,16 @@
+#include "FiguraGeometrica.h"
+
+#include <string>
+using namespace std;
+
+FiguraGeometrica::FiguraGeometrica(string novoNome, double novoTamanhoDoLado, double novaQuantidadeDeLados) {
+	this->nome = novoNome;
+	this->tamanhoDoLado = novoTamanhoDoLado;
+	this->quantidadeDeLados = quantidadeDeLados;
+}
+
+FiguraGeometrica::calcularPerimetro(double tamanhoDoLado, double quantidadeDeLados){
+
+	return 0;
+}
+

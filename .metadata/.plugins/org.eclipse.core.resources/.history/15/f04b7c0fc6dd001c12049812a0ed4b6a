@@ -1,0 +1,14 @@
+#include "Triangulo.h"
+
+#include <string>
+using namespace std;
+
+Triangulo::Triangulo() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Triangulo::~Triangulo() {
+	// TODO Auto-generated destructor stub
+}
+

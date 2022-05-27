@@ -1,0 +1,12 @@
+#include "Triangulo.h"
+#include "FiguraGeometrica"
+
+#include <string>
+using namespace std;
+
+Triangulo::Triangulo(double novaBase, double novaAltura, string novoNome, double novoTamanhoDoLado, double novaQuantidadeDeLados) : public FiguraGeometrica (novoNome, novoTamanhoDoLado, novaQuantidadeDeLados) {
+
+
+
+}
+

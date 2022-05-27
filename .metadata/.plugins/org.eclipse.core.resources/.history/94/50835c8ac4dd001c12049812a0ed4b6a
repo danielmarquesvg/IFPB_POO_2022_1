@@ -1,0 +1,17 @@
+/*
+ * FiguraGeometrica.h
+ *
+ *  Created on: 27 de mai. de 2022
+ *      Author: danie
+ */
+
+#ifndef FIGURAGEOMETRICA_H_
+#define FIGURAGEOMETRICA_H_
+
+class FiguraGeometrica {
+public:
+	FiguraGeometrica();
+	virtual ~FiguraGeometrica();
+};
+
+#endif /* FIGURAGEOMETRICA_H_ */

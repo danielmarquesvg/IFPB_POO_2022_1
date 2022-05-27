@@ -1,0 +1,17 @@
+/*
+ * Pedido.h
+ *
+ *  Created on: 24 de mai. de 2022
+ *      Author: danie
+ */
+
+#ifndef PEDIDO_H_
+#define PEDIDO_H_
+
+class Pedido {
+public:
+	Pedido();
+	virtual ~Pedido();
+};
+
+#endif /* PEDIDO_H_ */

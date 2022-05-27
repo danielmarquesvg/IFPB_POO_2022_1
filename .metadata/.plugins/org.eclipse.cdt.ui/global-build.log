@@ -1,0 +1,12 @@
+Info: Nothing to build for POO
+Info: Nothing to build for POO
+Info: Nothing to build for POO
+11:57:06 **** Rebuild of configuration Debug for project Heranca ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Main.o "..\\Main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Triangulo.o "..\\Triangulo.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o FiguraGeometrica.o "..\\FiguraGeometrica.cpp" 
+g++ -o Heranca.exe FiguraGeometrica.o Main.o Triangulo.o 
+Info: Nothing to build for POO
+Info: Nothing to build for Heranca
+Info: Nothing to build for Heranca

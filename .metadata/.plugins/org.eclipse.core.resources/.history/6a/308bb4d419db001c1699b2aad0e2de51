@@ -1,0 +1,18 @@
+/*
+ * Pedido.cpp
+ *
+ *  Created on: 24 de mai. de 2022
+ *      Author: danie
+ */
+
+#include "Pedido.h"
+
+Pedido::Pedido() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Pedido::~Pedido() {
+	// TODO Auto-generated destructor stub
+}
+

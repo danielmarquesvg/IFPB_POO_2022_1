@@ -1,0 +1,15 @@
+#ifndef FIGURAGEOMETRICA_H_
+#define FIGURAGEOMETRICA_H_
+
+#include <string>
+using namespace std;
+
+class FiguraGeometrica {
+
+public:
+	//atributos
+	string nome;
+	FiguraGeometrica();
+};
+
+#endif /* FIGURAGEOMETRICA_H_ */

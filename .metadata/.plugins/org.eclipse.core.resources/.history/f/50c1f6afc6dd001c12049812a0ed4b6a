@@ -1,0 +1,15 @@
+#include "Triangulo.h"
+
+#include <string>
+using namespace std;
+
+Triangulo::Triangulo(double novaBase, double novaAltura, string novoNome, double novoTamanhoDoLado, double novaQuantidadeDeLados) : public FiguraGeometrica (novoNome, novoTamanhoDoLado, novaQuantidadeDeLados) {
+	this->base = no
+
+
+}
+
+Triangulo::~Triangulo() {
+	// TODO Auto-generated destructor stub
+}
+

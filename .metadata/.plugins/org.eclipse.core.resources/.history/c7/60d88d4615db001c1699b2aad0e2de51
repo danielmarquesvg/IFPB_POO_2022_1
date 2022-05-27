@@ -1,0 +1,26 @@
+#include "Endereco.h"
+#include <string>
+
+Endereco::Endereco(string novaRua, int novoNumero, string novoBairro, string novaReferencia){
+	this->rua = novaRua;
+	this->numero = novoNumero;
+	this->bairro = novoBairro;
+	this->referencia = novaReferencia;
+}
+
+string Endereco::getRua(){
+	return this->rua;
+}
+
+int Endereco::getNumero(){
+	return this->numero;
+}
+
+string Endereco::getBairro(){
+	return this->bairro;
+}
+
+string Endereco::getReferencia(){
+	return this->referencia;
+}
+

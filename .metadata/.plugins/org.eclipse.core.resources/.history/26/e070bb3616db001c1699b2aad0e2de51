@@ -1,0 +1,11 @@
+#include "Pessoa.h"
+
+Pessoa::Pessoa() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Pessoa::~Pessoa() {
+	// TODO Auto-generated destructor stub
+}
+

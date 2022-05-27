@@ -1,0 +1,10 @@
+#ifndef PEDIDO_H_
+#define PEDIDO_H_
+
+class Pedido {
+public:
+	Pedido();
+
+};
+
+#endif /* PEDIDO_H_ */

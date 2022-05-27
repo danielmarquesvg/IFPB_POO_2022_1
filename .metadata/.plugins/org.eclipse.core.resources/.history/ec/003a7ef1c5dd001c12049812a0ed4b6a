@@ -1,0 +1,17 @@
+/*
+ * Triangulo.h
+ *
+ *  Created on: 27 de mai. de 2022
+ *      Author: danie
+ */
+
+#ifndef TRIANGULO_H_
+#define TRIANGULO_H_
+
+class Triangulo {
+public:
+	Triangulo();
+	virtual ~Triangulo();
+};
+
+#endif /* TRIANGULO_H_ */

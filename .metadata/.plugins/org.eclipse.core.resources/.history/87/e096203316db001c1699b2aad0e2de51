@@ -1,0 +1,18 @@
+/*
+ * Pessoa.cpp
+ *
+ *  Created on: 24 de mai. de 2022
+ *      Author: danie
+ */
+
+#include "Pessoa.h"
+
+Pessoa::Pessoa() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Pessoa::~Pessoa() {
+	// TODO Auto-generated destructor stub
+}
+

@@ -1,0 +1,20 @@
+#include "Cliente.h"
+
+Cliente::Cliente(string novoNome, Endereco novoEndereco, string novoTelefone) {
+	this->nome = novoNome;
+	this->endereco = novoEndereco;
+	this->telefone = novoTelefone;
+}
+
+string Cliente::getNome(){
+	return this->nome;
+}
+
+Endereco Cliente::getEndereco(){
+	return this->endereco;
+}
+
+string Cliente::getTelefone(){
+	return this->telefone;
+}
+

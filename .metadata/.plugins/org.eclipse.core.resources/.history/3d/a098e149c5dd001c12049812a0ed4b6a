@@ -1,0 +1,18 @@
+/*
+ * FiguraGeometrica.cpp
+ *
+ *  Created on: 27 de mai. de 2022
+ *      Author: danie
+ */
+
+#include "FiguraGeometrica.h"
+
+FiguraGeometrica::FiguraGeometrica() {
+	// TODO Auto-generated constructor stub
+
+}
+
+FiguraGeometrica::~FiguraGeometrica() {
+	// TODO Auto-generated destructor stub
+}
+

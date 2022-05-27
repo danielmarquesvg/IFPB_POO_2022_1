@@ -1,0 +1,11 @@
+#include <string>
+#include "Pedido.h"
+using namespace std;
+
+Pedido::Pedido(Cliente novoCliente, double novoValorTotal, string novaDataDoPedido, string novoHorarioDoPedido) {
+	this->cliente = novoCliente;
+	this->valorTotal = novoValorTotal;
+	this->dataDoPedido = novaDataDoPedido;
+	this->horarioDoPedido = novoHorarioDoPedido;
+}
+

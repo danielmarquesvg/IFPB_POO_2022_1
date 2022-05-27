@@ -1,0 +1,11 @@
+#ifndef PESSOA_H_
+#define PESSOA_H_
+
+class Pessoa {
+
+	public
+};
+
+
+
+#endif /* PESSOA_H_ */

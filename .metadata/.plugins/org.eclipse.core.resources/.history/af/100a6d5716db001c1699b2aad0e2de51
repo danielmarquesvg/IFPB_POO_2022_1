@@ -1,0 +1,30 @@
+#ifndef PESSOA_H_
+#define PESSOA_H_
+#include <string>
+
+using namespace std;
+
+class Pessoa {
+
+private:
+	string nome;
+	Endereco endereco;
+	string telefone;
+
+public:
+	//construtor
+	Pessoa(string novoNome, Endereco novoEndereco, string novoTelefone);
+
+	//getters
+	string getNome();
+	Endereco getEndereco();
+	string getTelefone();
+
+	//setters
+	void setNome(string novoNome);
+	void setEndereco(Endereco novoEndereco);
+	void setTelefone(string novoTelefone);
+};
+
+#endif /* PESSOA_H_ */
+

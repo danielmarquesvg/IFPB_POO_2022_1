@@ -1,0 +1,17 @@
+/*
+ * Endereco.cpp
+ *
+ *  Created on: 24 de mai. de 2022
+ *      Author: danie
+ */
+
+#include "Endereco.h"
+
+Endereco::Endereco(string novaRua, int novoNumero, string novoBairro, string novaReferencia){
+	this->rua = novaRua;
+	this->numero = novoNumero;
+	this->bairro = novoBairro;
+	this->referencia = novaReferencia;
+}
+
+

@@ -1,0 +1,32 @@
+#ifndef PEDIDO_H_
+#define PEDIDO_H_
+
+#include <string>
+#include <Cliente.h>
+using namespace std;
+
+
+class Pedido {
+
+	private:
+		Cliente cliente;
+		double valorTotal;
+		string dataDoPedido;
+		string horarioDoPedido;
+
+	public:
+		//construtor
+		Pedido(Cliente novoCliente, double novoValorTotal, string novaDataDoPedido, string novoHorarioDoPedido);
+
+		//getters
+		Cliente getCliente();
+		double getValorTotal();
+		string getDataDoPedido();
+
+		//setters
+		void setCliente(Cliente novoCliente);
+		void setValorTotal(double novoValorTotal);
+		void setDataDoPedido(string novaDataDoPedido);
+};
+
+#endif /* PEDIDO_H_ */
